@@ -45,10 +45,11 @@ This project helped me understand the following topics:
 2. **Install Dependencies**
    npm install
 
-3.**Start the development server**
+ 3.**Start the development server**
    npm start
 
    💬 Notes
+
 This is a beginner-friendly project focused on understanding core React concepts.
 
 No backend or database is used.
