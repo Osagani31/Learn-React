@@ -1,59 +1,70 @@
-# Learning React
+# Getting Started with Create React App
 
-This repository was created to practice and learn the basics of React for frontend development. As a beginner, I’m using this project to explore how React works and get hands-on experience with its core features.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📚 What I Learned
+In the project directory, you can run:
 
-This project helped me understand the following topics:
+### `npm start`
 
-1. **React Components**  
-   - Building simple and reusable functional components
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2. **CSS Styling for Components and Page Handling**  
-   - Applying inline styles, external CSS, and basic layout styling
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. **Creating Dynamic Components**  
-   - Rendering components with data using `.map()` and conditional rendering
+### `npm test`
 
-4. **Props Handling**  
-   - Passing data between components using props
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-5. **React Router**  
-   - Creating multiple pages and navigating between them using `react-router-dom`
+### `npm run build`
 
-6. **useState Hook**  
-   - Managing and updating component-level state
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-7. **React Bootstrap**  
-   - Using Bootstrap UI components for faster and responsive design
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-8. **Event Handling and useEffect Hook**  
-   - Responding to user interactions  
-   - Running side effects like API calls or time-based actions
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## ▶️ How to Run
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Osagani31/Learn-React.git
-   cd Learn-React
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2. **Install Dependencies**
-   npm install
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
- 3.**Start the development server**
-   npm start
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   💬 Notes
+## Learn More
 
-This is a beginner-friendly project focused on understanding core React concepts.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-No backend or database is used.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Only frontend features are practiced here.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
