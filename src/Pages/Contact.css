@@ -1,0 +1,95 @@
+.contact-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9fdfb;
+  color: #2d5a3d;
+  min-height: 100vh;
+  padding: 0; /* Remove padding to match Home.js */
+}
+
+/* Navigation links styling - matching Home.js */
+.nav-links {
+  position: fixed; /* Changed from absolute to fixed */
+  top: 0; /* Changed from 20px to 0 */
+  left: 0; /* Changed from 20px to 0 */
+  right: 0; /* Changed from 20px to 0 */
+  padding: 20px; /* Add padding inside the navbar */
+  background-color: #f9fdfb; /* Add background color to match page */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Navigation title styling - matching Home.js */
+.nav-title {
+  color: #2d5a3d;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Navigation buttons container - matching Home.js */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #2d5a3d;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  background-color: #e8f5e8;
+  border-radius: 20px;
+  border: 2px solid #7dd8a1;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #7dd8a1;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Main contact content */
+.contact-content {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 128, 96, 0.1);
+  margin-top: 80px; /* Add top margin for navbar clearance */
+}
+
+.contact-content h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  color: #07b270;
+}
+
+.contact-section {
+  margin-top: 1.5rem;
+}
+
+.contact-section h3 {
+  margin-bottom: 0.3rem;
+  color: #08875b;
+}
+
+.contact-section ul {
+  padding-left: 1rem;
+}
+
+.contact-section li {
+  margin-bottom: 0.5rem;
+}
+
+.thanks-note {
+  margin-top: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #20734b;
+}

@@ -1,0 +1,233 @@
+/* App component styles */
+.App {
+  text-align: left;
+  position: relative;
+}
+
+/* Watched Count Styles */
+.watched-count {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Arial', sans-serif;
+  z-index: 1000;
+}
+
+.watched-count p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.watched-count button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watched-count button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+}
+
+.watched-count button:active {
+  transform: scale(0.95);
+}
+
+/* Add some general styling for the app */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+/* Router content styling */
+.router-content {
+  padding: 0 20px 20px 20px; /* Removed top padding, handled by content-container */
+  min-height: 100vh;
+}
+
+/* Navigation links styling */
+.nav-links {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Navigation title styling */
+.nav-title {
+  color: #2d5a3d;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Navigation buttons container */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #2d5a3d;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  background-color: #e8f5e8;
+  border-radius: 20px;
+  border: 2px solid #7dd8a1;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #7dd8a1;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Center-aligned image styling - below green containers */
+.right-align-image {
+  display: block;
+  margin: 15px auto 20px auto; /* Center the image */
+  max-width: 250px; /* Reduced from 400px to 250px */
+  width: auto; /* Changed from 100% to auto for better control */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Main content container to prevent overlap */
+.content-container {
+  margin-right: 0; /* Remove right margin restriction */
+  min-height: 600px;
+  width: 80%; /* Make content 80% of screen width */
+  margin: 0 auto; /* Center the content container */
+  padding-top: 80px; /* Space for navbar */
+}
+
+/* Movie section spacing - simplified without absolute positioning */
+.movie-section {
+  margin-bottom: 50px;
+  clear: both;
+}
+
+/* Movie rating and description styling */
+.movie-rating {
+  font-weight: bold;
+  color: #2d5a3d;
+  margin: 5px 0 5px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.movie-description {
+  font-style: italic;
+  color: #555;
+  margin: 5px 0 15px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Harry Potter series description styling */
+.harry-potter-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+  margin: 15px 0 20px 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.watched-count-item {
+  font-weight: bold;
+  color: #2d5a3d;
+  margin: 5px 15px 20px 15px;
+  font-size: 14px;
+  text-align: left;
+  background-color: #7dd8a1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #07b270;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual movie watched count styling */
+.movie-watched-count {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Arial', sans-serif;
+  margin: 10px 0 30px 0;
+  max-width: 250px;
+}
+
+.movie-watched-count p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.movie-watched-count button {
+  background: white;
+  border: 2px solid black;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-watched-count button:hover {
+  background: black;
+  color: white;
+  border-color: black;
+  transform: scale(1.1);
+}
+
+.movie-watched-count button:active {
+  transform: scale(0.95);
+}

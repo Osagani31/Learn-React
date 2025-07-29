@@ -1,0 +1,35 @@
+.topic-box{
+    background-color: #7dd8a1;
+    border: 1px solid #07b270;
+    padding: 20px; /* Increased padding for full-width view */
+    border-radius: 8px;
+    margin: 15px 0;
+    text-align: left;
+    width: 100%; /* Take full width of container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.topic-box-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    display: block;
+}
+
+.rating-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #2d5a3d;
+    margin: 8px 0 5px 0;
+}
+
+.description-text {
+    font-weight: normal;
+    font-style: italic;
+    color: #2d5a3d;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    line-height: 1.4;
+}
