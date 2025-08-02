@@ -42,7 +42,12 @@ This is a beginner-friendly project focused on understanding core React concepts
 No backend or database is used.
 
 Only frontend features are practiced here.
+---
+Screenshots
 
+<img width="1920" height="1080" alt="Screenshot 2025-07-27 184506" src="https://github.com/user-attachments/assets/f14d174d-0f96-41ff-8cde-681a93012a1e" />
+
+<img width="1919" height="997" alt="Screenshot 2025-07-27 184536" src="https://github.com/user-attachments/assets/18eac674-75e7-4f0f-bf0f-cca3dbd78c3c" />
 
 ---
 
